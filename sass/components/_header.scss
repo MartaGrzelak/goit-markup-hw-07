@@ -15,6 +15,7 @@
   }
   &__menu-secondary-contact {
     display: flex;
+    align-items: center;
     column-gap: 10px;
     font-weight: 500;
     font-size: 14px;
@@ -31,8 +32,9 @@
     }
   }
   &__menu-primary-link {
-    position: relative;
     @extend.header__menu-secondary-contact;
+    position: relative;
+    color: $text-color-dark-secondary;
     &:hover,
     &:focus {
       color: $text-color-light-secondary;

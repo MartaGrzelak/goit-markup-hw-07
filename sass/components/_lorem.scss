@@ -1,10 +1,7 @@
 .lorem {
-  padding-bottom: 0;
-  &__list {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-  }
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
   &__title {
     font-weight: 700;
     font-size: 14px;
